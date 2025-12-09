@@ -1,0 +1,28 @@
+spring:
+  application:
+    name: IgnitorsHubAssignment
+  datasource:
+    url: jdbc:mysql://127.0.0.1:3306/IgnitorsHubProjectsAssignment
+    username: root
+    password: Nish@nt
+
+  jpa:
+    hibernate:
+      ddl-auto: update
+    show-sql: true
+    properties:
+      hibernate:
+        dialect: org.hibernate.dialect.MySQLDialect
+
+
+  mail:
+    host: smtp.gmail.com
+    port: 587
+    username: nishant.narula023@gmail.com
+    password: uqwfepcixwduavxx
+    properties:
+      mail:
+        smtp:
+          auth: true
+          starttls:
+            enable: true
