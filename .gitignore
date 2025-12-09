@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 HELP.md
 target/
 .mvn/wrapper/maven-wrapper.jar
@@ -31,3 +32,8 @@ build/
 
 ### VS Code ###
 .vscode/
+=======
+# Default ignored files
+/shelf/
+/workspace.xml
+>>>>>>> 4acc9b5f1ca382b196df3b5063c533b5f502a4f4
